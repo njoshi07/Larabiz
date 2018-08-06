@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Edit Listings <a class="btn btn-default btn-xs pull-right" href="/dashboard">Go Back</a></div>
+                <div class="panel-heading">Latest Business Listings</div>
 
                 <div class="panel-body">
                     {!! Form::open(['action' => ['ListingsController@update', $listing->id],'method' => 'POST']) !!}
